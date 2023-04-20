@@ -1,0 +1,51 @@
+body
+{
+  background-color: beige;  
+}
+h1 {
+    text-align :center;
+    font-family:'Marcellus SC', sans-serif; 
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+    font-family: 'Marcellus SC', sans-serif;
+}
+
+
+.persoprin {
+    text-align: center;
+    
+}
+
+.personnages {
+    border-radius: 50%;
+    height: 300px;
+}
+
+.texte {
+    text-align: justify;
+    font-family: 'Robote', sans-serif;
+}
+
+.habitants {
+    border-radius:50%;
+    height:200px;
+
+}
+
+.divhabitants{
+    display: flex;
+    flex-direction:row;
+    justify-content :space-evenly;
+    margin-top : 60px;
+
+}
+
+.nomshab {
+    display: flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
