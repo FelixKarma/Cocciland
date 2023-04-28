@@ -1,0 +1,322 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: rgb(21, 21, 16);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.imgcocci {
+
+    position: relative;
+    clip-path: ellipse(50% 33%);
+
+
+
+}
+
+.title1 {
+    text-align: left;
+}
+
+
+.Titre {
+    font-size: 25px;
+    text-align: center;
+}
+
+.bloc {
+    width: 20%;
+    background-color: rgb(16, 15, 15);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+   
+
+
+
+
+}
+
+
+hr {
+    height: 1px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Titre {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+body {
+    background: linear-gradient(#062745, brown) ;
+}
+
+
+#nom {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+img {
+
+    width: 58%;
+}
+
+.centrage {
+    text-align: center;
+}
+
+.texte {
+    font-size: 50%;
+}
+
+
+
+
+/* css essayer */
+
+
+
+
+
+.image-block {
+    position: relative;
+    width: 90%;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.image-block img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+}
+
+.image-block:hover img {
+    transform: rotateY(180deg);
+}
+
+.image-block .image-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.image-block:hover .image-text {
+    transform: rotateY(0deg);
+}
+
+main {
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 60%;
+    color: white;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Titre {
+    color: white;
+    font-family: 'Marcellus SC', serif;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#nom {
+    color: white;
+    font-family: 'Marcellus SC', serif;
+}
+
+
+/* header */
+
+@use postcss-preset-env {
+    stage: 0;
+}
+
+/* helpers/grid.css */
+
+.grid {
+    inline-size: 90%;
+
+    max-inline-size: 48em;
+}
+
+/* helpers/sticky.css */
+
+.sticky {
+    position: sticky;
+    will-change: transform;
+}
+
+.sticky--top {
+    top: 0;
+}
+
+/* layout/base.css */
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.75;
+    margin: 0;
+    min-block-size: 100vh;
+}
+
+/* layout/header.css */
+
+.header {
+    background-color: #151414;
+    padding-block: 1em;
+    color: #fff;
+
+}
+
+
+.header::after {
+    bottom: 0;
+    box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.3s;
+    z-index: -1;
+}
+
+.header.is-active::after {
+    opacity: 1;
+}
+
+/* layout/main.css */
+
+.main {
+    padding-block: 6em;
+}
+
+/* modules/headline.css */
+
+h1 {
+    margin-block: 0 0.5em;
+}
+
+/* modules/navigation.css */
+
+.navigation__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__list--inline {
+    display: flex;
+    gap: 1.5em;
+}
+
+.navigation__link {
+    color: inherit;
+    display: block;
+    padding-inline: 1em;
+    text-decoration: none;
+}
+
+.navigation__link--is-active {
+    background-color: #000;
+    border-radius: 999em;
+    color: #fff;
+}
+
+/* modules/paragraph.css */
+
+p {
+    padding-block: 1.5em;
+}
+
+/* farid */
+
+nav.menu{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1{
+    border-radius: 50%;
+
+}
+nav.menu ul{
+
+display: flex;
+flex-direction: row;
+margin-left: 75px;
+
+
+}
+
+.btn2{
+    font-size: 12px;
+}
+
+.btn1{
+    height: 50px;
+    width: 50px;
+}
