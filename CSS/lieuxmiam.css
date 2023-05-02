@@ -1,42 +1,24 @@
+img {
+    width: 80%;
+    
+   
+}
+#carte {
+    text-align: center;
+}
 body {
     background: linear-gradient(#062745, brown) !important; 
-    margin:0 ;
-}
-
-h2 {
-    color : brown !important;
-    font-family:'Marcellus SC', sans-serif !important; 
-}
-
-p {
-    text-align: right;
-    width: 50%;
-    margin: 0 48%;
-    margin-bottom: 10px;
-    color : white;
-    
-}
-
-.carréfood {
-    width : 200px;
-    margin : 20px;
-   
-
-}
-.food {
-    display : flex;
-    flex-direction : row;
-    justify-content: space-evenly;
 }
 
 
 header{
     background: linear-gradient(black, #062745) !important;
-    color : white !important;
+    color: #000000 !important;
 }
 
 a{
   color: white !important;
+  
 }
 
 nav.menu{
