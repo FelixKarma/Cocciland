@@ -15,9 +15,9 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-nav.menu{
+nav.menu li{
     
-    padding: 10px;
+    padding: 1px;
     display: flex;
     justify-content: space-between;
     width: 100%;
