@@ -1,5 +1,9 @@
 body 
 
+
+  {background: linear-gradient(#062745, brown) !important; 
+ }
+
     button {
         background-color: cornflowerblue;
         border : 0;
@@ -26,4 +30,37 @@ body
 
    }
 
+header{
+    background: linear-gradient(black, #062745) !important;
+    color: #000000 !important;
+}
+
+a{
+  color: white !important;
+}
+
+nav.menu{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.menu a{
+  text-decoration: none;
+}
+
+.btn1{
+  border-radius: 50%;
+
+}
+nav.menu ul{
+
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+}
    

@@ -1,3 +1,14 @@
 body{
     background-color: azure;
 }
+h1{
+    text-align: center;
+    border
+    
+}
+p{
+  float: left;
+  justify-content: space-between; 
+  
+  
+}

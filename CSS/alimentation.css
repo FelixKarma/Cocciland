@@ -1,9 +1,77 @@
-img {
-    width: 80%;
-    
-   
+body {
+    background: linear-gradient(#062745, brown) !important; 
+    margin:0 ;
 }
 
-body {
-    background-color: #fffbf0;
+h2 {
+    color : brown !important;
+    font-family:'Marcellus SC', sans-serif !important; 
+}
+
+p {
+    text-align: right;
+    width: 50%;
+    margin: 0 48%;
+    margin-bottom: 10px;
+    color : white;
+    
+}
+
+.carréfood {
+    width : 200px;
+    margin : 20px;
+   
+
+}
+.food {
+    display : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+}
+
+
+header{
+    background: linear-gradient(black, #062745) !important;
+    color : white !important;
+}
+
+a{
+  color: white !important;
+}
+
+nav.menu{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.menu a{
+  text-decoration: none;
+}
+
+.btn1{
+  border-radius: 50%;
+
+}
+nav.menu ul{
+
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+
+
+}
+
+.btn2{
+  font-size: 9px;
+  font-family: 'Marcellus SC', sans-serif !important;
+}
+
+.btn1{
+  height: 50px;
+  width: 50px;
 }

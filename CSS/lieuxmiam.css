@@ -1,0 +1,59 @@
+img {
+    width: 80%;
+    
+   
+}
+#carte {
+    text-align: center;
+}
+body {
+    background: linear-gradient(#062745, brown) !important; 
+}
+
+
+header{
+    background: linear-gradient(black, #062745) !important;
+    color: #000000 !important;
+}
+
+a{
+  color: white !important;
+  
+}
+
+nav.menu{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.menu a{
+  text-decoration: none;
+}
+
+.btn1{
+  border-radius: 50%;
+
+}
+nav.menu ul{
+
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+
+
+}
+
+.btn2{
+  font-size: 9px;
+  font-family: 'Marcellus SC', sans-serif !important;
+}
+
+.btn1{
+  height: 50px;
+  width: 50px;
+}
