@@ -10,7 +10,7 @@ body,html{
 }
 
 body{
-background-image: url(fond-page.jpg);
+background-image: url(../fond-page.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
