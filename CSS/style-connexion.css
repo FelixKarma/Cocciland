@@ -9,7 +9,7 @@ body,html{
 }
 
 body{
-    background-image: url(fond-connexion.jpg);
+    background-image: url(../fond-connexion.jpg);
     background-repeat: no-repeat;
 background-size: cover;
 }
