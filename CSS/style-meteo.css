@@ -125,7 +125,8 @@ nav ul li a {
 h2{
     color:#FDB813;
 }
-.titre{
-    
-    text-decoration: none;
-}
+
+.container h2{
+
+    color: rgb(255, 255, 255,0.9) !important;
+}   
