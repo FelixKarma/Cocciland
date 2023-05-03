@@ -10,7 +10,7 @@ class Personnage {
 
 let personnages = [
     new Personnage('Les Fourmies ouvrières', "../Screenshots/Capture d'écran 2023-04-05 161058.png", '20 millions', "Les fourmis ouvrières permettent aux habitants du pays Cocciland de pouvoir vivre convenablement dans différents lieux/bâtiments/architectures etc... Elles sont dotées d'une grande force et d'une rapidité sans pareille. Le record de la construction la plus rapide est détenu par le clan des fourmis ! Elles en sont très fières."),
-
+ 
     new Personnage('Les Pompiers Libellules', "../Screenshots/Capture d'écran 2023-04-05 161146.png", '10 millions', "Les pompiers libellules sont les héros du pays Cocciland. Au secours de toute personne à la rescousse, elles accourent à tout pépin et assurent aux habitants la meilleure prise en charge des incidents."),
 
     new Personnage('Les Banquiers Cigales', "../Screenshots/Capture d'écran 2023-04-05 161806.png", '5 millions', "Les banquiers cigales permettent aux habitants d'être fourni en monnaie courante qui est le pollen. Ils sont chargés de ne pas laisser les habitants sans un sou afin de faire croître l'économie du pays."),
