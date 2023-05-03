@@ -5,6 +5,10 @@ body
 #staticBackdropLabel {
 color : black !important;
 }
+
+video {
+  display: flex;
+ 
 *{
     font-family: 'Marcellus SC', serif;
     list-style: none;
