@@ -9,26 +9,26 @@ class Personnage {
 }
 
 let personnages = [
-    new Personnage('Les Fourmies ouvrières', "../Screenshots/Capture d'écran 2023-04-05 161058.png", '20 millions', "Les fourmis ouvrières permettent aux habitants du pays Cocciland de pouvoir vivre convenablement dans différents lieux/bâiments/architectures etc... Elles sont dôtés d'une grande force et d'une rapidité sans pareille. Le record de la construction la plus rapide est détenue par le clan des fourmis ! Elles en sont très fières."),
+    new Personnage('Les Fourmies ouvrières', "../Screenshots/Capture d'écran 2023-04-05 161058.png", '20 millions', "Les fourmis ouvrières permettent aux habitants du pays Cocciland de pouvoir vivre convenablement dans différents lieux/bâtiments/architectures etc... Elles sont dotées d'une grande force et d'une rapidité sans pareille. Le record de la construction la plus rapide est détenu par le clan des fourmis ! Elles en sont très fières."),
 
-    new Personnage('Les Pompiers Libellules', "../Screenshots/Capture d'écran 2023-04-05 161146.png", '10 millions', "Les pompiers libellules sont les héros du pays Cocciland. Au secours de toutes personnes à la rescousses, elles accourent à tout pépins et assurent aux habitants la meilleure prise en charge des incidents."),
+    new Personnage('Les Pompiers Libellules', "../Screenshots/Capture d'écran 2023-04-05 161146.png", '10 millions', "Les pompiers libellules sont les héros du pays Cocciland. Au secours de toute personne à la rescousse, elles accourent à tout pépin et assurent aux habitants la meilleure prise en charge des incidents."),
 
-    new Personnage('Les Banquiers Cigales', "../Screenshots/Capture d'écran 2023-04-05 161806.png", '5 millions', "Les banquiers cigales permettent aux habitants d'être fournis en monnaie courante qui est le pollen. Ils sont chargés de ne pas laisser les habitants sans un sous afin de faire croître l'économie du pays."),
+    new Personnage('Les Banquiers Cigales', "../Screenshots/Capture d'écran 2023-04-05 161806.png", '5 millions', "Les banquiers cigales permettent aux habitants d'être fourni en monnaie courante qui est le pollen. Ils sont chargés de ne pas laisser les habitants sans un sou afin de faire croître l'économie du pays."),
 
-    new Personnage('Les Gendarmes Gendarmes', "../Screenshots/Capture d'écran 2023-04-05 161218.png", '10 millions', "Les gendarmes gendarmes (un peu chiant à lire) font régner l'ordre et la justice auprès des habitants. Ils sont présents afin d'éviter tous dangers et permettent aux habitants de se sentir en sécurité."),
+    new Personnage('Les Gendarmes Gendarmes', "../Screenshots/Capture d'écran 2023-04-05 161218.png", '10 millions', "Les gendarmes gendarmes (un peu chiant à lire) font régner l'ordre et la justice auprès des habitants. Ils sont présents afin d'éviter tous les dangers et permettent aux habitants de se sentir en sécurité."),
 
     new Personnage('Les Cuisiniers Bourdons', "../Screenshots/Capture d'écran 2023-04-07 102336.png", '3 millions',
-        "Les cuisiniers bourdons permettent aux habitants de pouvoir consommer à travers le pays diverses nourritures et de pouvoir se régaler grâce à eux. Ils sont présents dans n'importe quel lieux pour s'alimenter."),
+        "Les cuisiniers bourdons permettent aux habitants de pouvoir consommer à travers le pays diverses nourritures et de pouvoir se régaler grâce à eux. Ils sont présents dans n'importe quels lieux pour s'alimenter."),
 
-    new Personnage('Les Médecins Mantes Religieuses', "../Screenshots/Capture d'écran 2023-04-05 162239.png", '10 millions', "Les médecins mantes reigieuses assurent la bonne santé et prise en charge de tous les habitants du pays Cocciland. Ils sont présents afin de soigner tous les malades et de guérir au mieux chaque maladie afin d'éviter toute propagation de virus dans le pays."),
+    new Personnage('Les Médecins Mantes Religieuses', "../Screenshots/Capture d'écran 2023-04-05 162239.png", '10 millions', "Les médecins mantes religieuses assurent la bonne santé et prise en charge de tous les habitants du pays Cocciland. Ils sont présents afin de soigner tous les malades et de guérir au mieux chaque maladie afin d'éviter toute propagation de virus dans le pays."),
 
     new Personnage('Les Maçons Scarabés', "../Screenshots/Capture d'écran 2023-04-06 090459.png", '15 millions', " Les maçons scarabés sont en collaboration avec les fourmis afin de fournir des constructions les plus solides et rapide possible. Ils sont à la tête des constructions et fournissent en temps et en heure les plans des futurs bâtiments."),
 
-    new Personnage('Les Infirmières Moustiques', "../Screenshots/Capture d'écran 2023-04-06 162836.png", "10 millions", "Les infirmières moustiques sont des collaboratrices hors pairs avec les médecins afin de founir des soins les plus efficaces et rapides aux habitants. Elles sont d'une grande aide et fournissent sans problèmes tous les soins nécessaires aux patients dont un en particulier : le sang."),
+    new Personnage('Les Infirmières Moustiques', "../Screenshots/Capture d'écran 2023-04-06 162836.png", "10 millions", "Les infirmières moustiques sont des collaboratrices hors pair avec les médecins afin de fournir des soins les plus efficaces et rapides aux habitants. Elles sont d'une grande aide et fournissent sans problèmes tous les soins nécessaires aux patients, dont un en particulier : le sang"),
 
-    new Personnage('Les Eboueuses Mouches', "../Screenshots/Capture d'écran 2023-04-06 164022.png", "6 millions", "Les éboueuses mouches permettent à Cocciland de rester propre et d'eviter aux habitants de vivre dans un pays rempli de déchets. Elles permettent d'avoir un bon écosystème et de vivre convenablement dans ce pays."),
+    new Personnage('Les Eboueuses Mouches', "../Screenshots/Capture d'écran 2023-04-06 164022.png", "6 millions", "Les éboueuses mouches permettent à Cocciland de rester propre et d'éviter aux habitants de vivre dans un pays rempli de déchets. Elles permettent d'avoir un bon écosystème et de vivre convenablement dans ce pays."),
 
-    new Personnage('Les Fleuristes Lucioles', "../Screenshots/Capture d'écran 2023-04-07 103526.png", '6 millions', "Les fleuristes lucioles permettent d'apporter à Cocciland de la verdure, des endroits fleuris afin d'embellir le pays. Elles embelissent également la vie des habitants grâce à leurs bouquets fleuris composés des plus belles fleurs du pays et permettent donc aux habitants de s'offrir des cadeaux entre-eux et de décorerleur maison/appartement.")
+    new Personnage('Les Fleuristes Lucioles', "../Screenshots/Capture d'écran 2023-04-07 103526.png", '6 millions', "Les fleuristes lucioles permettent d'apporter à Cocciland de la verdure, des endroits fleuris afin d'embellir le pays. Elles embellissent également la vie des habitants grâce à leurs bouquets fleuris composés des plus belles fleurs du pays et permettent donc aux habitants de s'offrir des cadeaux entre eux et de décorer leur maison/appartement.")
 ]
 
 
