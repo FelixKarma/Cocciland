@@ -1,8 +1,5 @@
 body {
-    background-image: url('../Screenshots/image 1.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: linear-gradient(#062745, brown) !important; 
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
     overflow-x: hidden;
@@ -14,7 +11,7 @@ main {
 
 h1 {
     padding: 10px;
-    background-color: #FF7D00;
+    color : white !important;
     border-radius: 77px;
     width: 300px;
     text-align: center;
@@ -56,7 +53,7 @@ figure {
     margin: 20px;
     background-color: #F3AA00;
     border-radius: 140px;
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
 }
@@ -104,7 +101,7 @@ big-btn:active {
 
 #inner-devise {
     background-color: #C88C00;
-    height: 310px;
+    height: 350px;
     padding: 10px;
     border-radius: 0px 0px 168px 168px;
 }
@@ -193,5 +190,59 @@ td{
 .fermer-item3 i {
     color: #e74c3c;
 }
+
+.carte {
+    position: relative;
+    top: 50px;
+    left : 22%;
+     
+}
+
+header{
+    background: linear-gradient(black, #062745) !important;
+    color : white !important;
+}
+
+a{
+  color: white !important;
+}
+
+nav.menu{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.menu a{
+  text-decoration: none;
+}
+
+.btn1{
+  border-radius: 50%;
+
+}
+/* nav.menu ul{
+
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+
+
+} */
+
+.btn2{
+  font-size: 9px;
+  font-family: 'Marcellus SC', sans-serif !important;
+}
+
+.btn1{
+  height: 50px;
+  width: 50px;
+}
+
 
 /* Fin modal */
