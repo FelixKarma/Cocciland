@@ -30,14 +30,14 @@ nav.menu{
     color: white;
 }
 
-nav.menu ul{
+/* nav.menu ul{
 
     display: flex;
     flex-direction: row;
     margin-left: 75px;
     
     
-    }
+    } */
 
 .btn1{
     border-radius: 50%;

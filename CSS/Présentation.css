@@ -40,34 +40,11 @@ h2 {
     color : white;
 }
 
-.habitants {
-    border-radius:50% !important;
-    height:200px !important;
-    
-}
+.
 
-.divhabitants{
-    display: flex !important;
-    flex-direction:row !important;
-    justify-content :space-evenly !important;
-    margin-top : 60px !important;
-   
 
-}
 
-.texthabitant {
-display: flex !important;
-flex-direction: column !important;
-justify-content : center !important;
-align-items : center !important;
-color : white;
-}
 
-.popup {
-    border-radius:50% !important;
-    height: 200px !important;
- 
-}
 
 header{
     background: linear-gradient(black, #062745) !important;
@@ -96,14 +73,14 @@ nav.menu{
   border-radius: 50%;
 
 }
-nav.menu ul{
+/* nav.menu ul{
 
 display: flex;
 flex-direction: row;
 margin-left: 20px;
 
 
-}
+} */
 
 .btn2{
   font-size: 9px;

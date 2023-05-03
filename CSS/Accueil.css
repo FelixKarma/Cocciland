@@ -1,12 +1,18 @@
+
 *{
     font-family: 'Marcellus SC', serif;
     list-style: none;
-    
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 body,html{
     min-height: 100%;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
 }
 
 body{
@@ -25,10 +31,7 @@ nav.menu{
 }
 
 
-.menu a{
-    text-decoration: none;
-    color: white;
-}
+
 
 .btn1{
     border-radius: 50%;
@@ -46,8 +49,9 @@ margin: 0 auto;
 
 li.btn .dropdown-menu{
     background: linear-gradient(#062745, rgb(124, 123, 123)) !important;
-        
+      
 }
+
 
 
 .btn2{
