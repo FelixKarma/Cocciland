@@ -65,8 +65,13 @@ li.btn .dropdown-menu{
 
 .imagecocci{
     border-radius: 40%;
-    
+    height: 40vh;
+    width: 40vh;
+
+    transition: 0.5s;
 }
+
+
 
 .texte{
 
@@ -80,7 +85,6 @@ li.btn .dropdown-menu{
     width: 1000px;
     padding: 75px;
     
-
     
 }
 
