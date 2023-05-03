@@ -1,6 +1,6 @@
 
 {
-  background: linear-gradient(#062745, brown) !important;  
+  background: linear-gradient(#062745 brown) !important;  
 }
 
     
@@ -108,15 +108,16 @@ div.bloc{
 footer{
 
   opacity: 0.7;
+  
       
 }
 
-
-.btn4{ 
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  color: white !important;
-
+p{ 
+  color: #ff2024;
 }
+
+
+
   
 .DARK{
   display: flex;
@@ -309,10 +310,10 @@ nav.menu ul li.btn{
   
   /*Square content*/
   .square-container {
-    padding: 40px;
+   
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
   
     -ms-transition: transform 0.6s cubic-bezier(0.5, 0.3, 0.3, 1);
     transition: transform 0.6s cubic-bezier(0.5, 0.3, 0.3, 1);
@@ -366,8 +367,8 @@ nav.menu ul li.btn{
   .square-flip h3 {
     color: white;
     font-family: "Open Sans";
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: px;
     line-height: 26px;
   }
   /*Elements*/
@@ -468,7 +469,7 @@ nav.menu ul li.btn{
     height: 440px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 10px;
   }
   .clearfix {
     clear: both;
