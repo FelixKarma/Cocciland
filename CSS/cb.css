@@ -1,3 +1,8 @@
+
+header {
+background: linear-gradient(black, #062745) !important;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(#062745, brown) !important;
