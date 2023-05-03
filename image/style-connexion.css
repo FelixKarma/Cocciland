@@ -1,0 +1,71 @@
+
+*{
+    font-family: 'Marcellus SC', serif;
+    list-style: none;
+}
+
+body,html{
+    min-height: 100%;
+}
+
+body{
+    background-image: url(fond-connexion.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+nav.menu{   
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.menu ul{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    
+    
+    }
+
+.btn1{
+    border-radius: 50%;
+    
+}
+.btn2{
+    font-size: 12px;
+}
+
+.btn1{
+    height: 50px;
+    width: 50px;
+}
+
+
+.DARK{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+.form-check-label{
+    color: white;
+    
+
+        }
+
+.submit{
+    text-decoration: none;
+    color: white;
+}
