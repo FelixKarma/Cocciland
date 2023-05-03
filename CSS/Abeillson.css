@@ -4,6 +4,7 @@ body{
 p{
 color: rgb(255, 255, 255);
 font-family: 'Marcellus SC', serif;
+text-align: center;
 }
 h1 {
   text-align :center !important;
