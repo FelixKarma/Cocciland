@@ -1,4 +1,7 @@
-
+body
+{
+  background: linear-gradient(#062745, brown) !important;  
+}
 #staticBackdropLabel {
 color : black !important;
 }
@@ -7,6 +10,10 @@ color : black !important;
     list-style: none;
     
     /* text-decoration: none; */
+}
+
+p{
+  color: white;
 }
 body{
     background-image: url(../fond-page.jpg);
