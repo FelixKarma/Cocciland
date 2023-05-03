@@ -1,35 +1,18 @@
 body{
-    background-color: azure;
-}
-h1{
-    text-align: center;
-    border
-    
+  background-color: azure;
 }
 p{
-  float: left;
-  justify-content: space-between; 
-  
-  
+color: rgb(255, 255, 255);
+font-family: 'Marcellus SC', serif;
 }
-{
-  background: linear-gradient(#062745 brown) !important;  
-}
-
+h1 {
+  text-align :center !important;
+  font-family:'Marcellus SC', sans-serif !important; 
+  color : white !important;
     
     
-
-#staticBackdropLabel {
-color : black !important;
 }
 
-
-
-
-.persoprin {
-    text-align: center !important;
-    
-}
 
 .personnages {
     border-radius: 50% !important;
@@ -46,27 +29,39 @@ color : black !important;
 }
 
 
+
+
+
+.texthabitant {
+display: flex !important;
+flex-direction: column !important;
+justify-content : center !important;
+align-items : center !important;
+color : white;
+}
+
+
 header{
-  background: linear-gradient(black, #062745) !important;
-  color: #000000 !important;
+    background: linear-gradient(black, #062745) !important;
+    color: #000000 !important;
 }
 
 a{
-color: white !important;
+  color: white !important;
 }
 
-nav.menu{
+/* nav.menu{
 
-padding: 10px;
-display: flex;
-justify-content: space-between;
-width: 100%;
-box-sizing: border-box;
-}
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+} */
 
 
 .menu a{
-text-decoration: none;
+  text-decoration: none;
 }
 
 .btn1{
@@ -93,132 +88,73 @@ margin-left: 20px;
 }
 
 
-.texte{
-
-  background-color: rgba(63, 64, 65,0.4);
-  color: white;
-  border-radius: 20%;
-
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  width: 1000px;
-  padding: 75px;
-  
-
-  
-}
-
-div.bloc{
-  margin-top: 10%;
-  /* margin-right: 10%; */
-  display: flex;
-  justify-content: center;
-  
-  
-}
-
-footer{
-
-  opacity: 0.7;
-  
-      
-}
-
-p{ 
-  color: #ff2024;
-}
 
 
 
   
-.DARK{
-  display: flex;
-  justify-content: end;
-  margin-right: 5%;
-}
-
-.form-check-label{
-  color: white;
-  
-
-  
-}
-
-
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  /* Ajoutez d'autres styles si vous le souhaitez, par exemple, changer la couleur d'arrière-plan */
-  background-color: #f1f1f1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* header .menu .menu-d{
-  display: none;
-} */
-
-header .menu .menu-d:hover{
- background-color: white;
- color: black;
-}
-
-/* header .menu .menu-d.btn:hover{
-  display: block;
-} */
-
-
-
-/* body {
- 
-
- 
-}
-
-nav.menu ul li.btn {
-  list-style-type: none;
+.stage {
+  width: 300px;
+  height: 300px;
   display: inline-block;
-  height: 20px;
-  
-  
-
+  margin: 20px;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -ms-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
 }
 
-.menu{
-  position: absolute;
-  margin: 80px;
-  left: 90px;
+@-webkit-keyframes bubble-anim {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
 
-}
+  20% {
+    -webkit-transform: scaleY(0.95) scaleX(1.05);
+    transform: scaleY(0.95) scaleX(1.05); }
 
-nav.menu ul li.btn{
-  margin: 65px;
-  
-}
+  48% {
+    -webkit-transform: scaleY(1.1) scaleX(0.9);
+    transform: scaleY(1.1) scaleX(0.9); }
 
-.menu a{ 
-  color: white;
-  font-size: auto;
-  text-decoration: none;
-}
+  68% {
+    -webkit-transform: scaleY(0.98) scaleX(1.02);
+    transform: scaleY(0.98) scaleX(1.02); }
 
-.btn1{
-  border-radius: 50%;
-}
+  80% {
+    -webkit-transform: scaleY(1.02) scaleX(0.98);
+    transform: scaleY(1.02) scaleX(0.98); }
 
-.texte{ position: absolute;
-  color: white;
-  background-color: blue;
-  display: flex;
-  justify-content: flex-end;
-  width: 20%;
-}
+  97%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
-.imagecocci{
-  position: absolute;
-  border-radius: 30%;
-} */
+@keyframes bubble-anim {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  20% {
+    -webkit-transform: scaleY(0.95) scaleX(1.05);
+    transform: scaleY(0.95) scaleX(1.05); }
+
+  48% {
+    -webkit-transform: scaleY(1.1) scaleX(0.9);
+    transform: scaleY(1.1) scaleX(0.9); }
+
+  68% {
+    -webkit-transform: scaleY(0.98) scaleX(1.02);
+    transform: scaleY(0.98) scaleX(1.02); }
+
+  80% {
+    -webkit-transform: scaleY(1.02) scaleX(0.98);
+    transform: scaleY(1.02) scaleX(0.98); }
+
+  97%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
