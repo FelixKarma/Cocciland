@@ -303,14 +303,14 @@ nav.menu{
     border-radius: 50%;
 
 }
-nav.menu ul{
+/* nav.menu ul{
 
 display: flex;
 flex-direction: row;
 margin-left: 75px;
 
 
-}
+} */
 
 .btn2{
     font-size: 12px;

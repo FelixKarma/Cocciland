@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Marcellus SC', serif;
     list-style: none;
@@ -25,10 +26,7 @@ nav.menu{
 }
 
 
-.menu a{
-    text-decoration: none;
-    color: white;
-}
+
 
 .btn1{
     border-radius: 50%;
