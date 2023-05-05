@@ -10,6 +10,7 @@ h1 {
     
 }
 
+
 #staticBackdropLabel {
 color : black !important;
 }
@@ -18,12 +19,32 @@ h2 {
     color: rgb(255, 255, 255) !important;
     font-weight: bold !important;
     font-family: 'Marcellus SC', sans-serif !important;
+    text-align: center;
 }
 
 
-.persoprin {
-    text-align: center !important;
-    
+img {
+
+margin-left: 50px;
+}
+
+p {
+  margin-left: 110px;
+  font-weight: bold;
+  font-family: 'Marcellus SC', sans-serif !important;
+  font-size: x-large;
+
+}
+
+button {
+  background-color: #dc3545; 
+        color: white; 
+        margin-left: 130px !important;
+        border: none;
+        padding: 10px 20px; 
+        border-radius: 5px  !important;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      
 }
 
 .personnages {
@@ -63,11 +84,7 @@ align-items : center !important;
 color : white;
 }
 
-.popup {
-    border-radius:50% !important;
-    height: 200px !important;
- 
-}
+
 
 header{
     background: linear-gradient(black, #062745) !important;
@@ -76,6 +93,7 @@ header{
 
 a{
   color: white !important;
+  text-decoration: none !important;
 }
 
 /* nav.menu{
