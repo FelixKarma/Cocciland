@@ -1,7 +1,13 @@
-
-{
-  background: linear-gradient(#062745 brown) !important;  
+body,html{ 
+  min-height: 100%;
 }
+
+
+body{
+  background: linear-gradient(#062745, brown) !important;  
+ 
+}
+
 
     
     
@@ -239,8 +245,8 @@ nav.menu ul li.btn{
   }
   .square,
   .square2 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
   }
   .square {
     background-size: cover;
