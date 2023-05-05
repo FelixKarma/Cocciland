@@ -45,11 +45,14 @@ h1 {
   text-align :center !important;
   font-family:'Marcellus SC', sans-serif !important; 
   color : white !important;
-    
-    
+} 
+
+h5, h2 {
+  text-align :center !important;
+  font-family:'Marcellus SC', sans-serif !important; 
+  color : white !important;
+  
 }
-
-
 .personnages {
     border-radius: 50% !important;
     height: 300px !important;

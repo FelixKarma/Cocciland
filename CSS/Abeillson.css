@@ -9,45 +9,14 @@ text-align: center;
 h1 {
   text-align :center !important;
   font-family:'Marcellus SC', sans-serif !important; 
+  color : white !important;   
+}
+
+h5, h2 {
+  text-align :center !important;
+  font-family:'Marcellus SC', sans-serif !important; 
   color : white !important;
-    
-    
 }
-
-/* nav.menu{
-    
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
-} */
-
-
-
-
-.btn1{
-  border-radius: 50%;
-  
-}
-
-
-li.btn .dropdown-menu{
-  background: linear-gradient(#062745, rgb(124, 123, 123)) !important;
-    
-}
-
-
-
-.btn2{
-  font-size: 12px;
-}
-
-.btn1{
-  height: 50px;
-  width: 50px;
-}
-
 .personnages {
     border-radius: 50% !important;
     height: 300px !important;
