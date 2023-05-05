@@ -1,9 +1,13 @@
 body
 {
-  background: linear-gradient(#062745, brown) !important;  
+  background: linear-gradient(#062745, brown) !important; 
+ 
 }
 h1 {
-    text-align :center !important;
+
+    text-align: center;
+  
+  
     font-family:'Marcellus SC', sans-serif !important; 
     color : black !important;
     
@@ -242,3 +246,63 @@ display: inline-block;
   97%, 100% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
+
+p{
+  margin-left: 185px;
+  font-weight: bold;  
+  font-family: 'Marcellus SC',  sans-serif !important;  
+  font-size: x-large;
+
+}
+
+    .supprimer{
+
+      margin-left: 185px;
+        background-color: #dc3545; /* couleur de fond rouge */
+        color: white; /* couleur de texte blanche */
+        border: none; /* pas de bordure */
+        padding: 10px 20px; /* espacement intérieur */
+        border-radius: 5px; /* coins arrondis */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* ombre portée */
+        cursor: pointer; /* curseur de souris sur le bouton */
+        transition: all 0.3s ease; /* transition animée */
+      }
+      
+      .supprimer:hover {
+        background-color: #c82333; /* couleur de fond rouge foncé au survol */
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* ombre portée renforcée au survol */
+      }
+      
+      .maison{
+        margin-left: 75px;
+      
+       
+          width: 30%;
+          height: 30%;
+        
+        
+ 
+        
+      
+      
+      }
+
+      .acheter{
+
+        margin-left: 185px;
+          background-color: #dc3545; /* couleur de fond rouge */
+          color: white; /* couleur de texte blanche */
+          border: none; /* pas de bordure */
+          padding: 10px 20px; /* espacement intérieur */
+          border-radius: 5px; /* coins arrondis */
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* ombre portée */
+          cursor: pointer; /* curseur de souris sur le bouton */
+          transition: all 0.3s ease; /* transition animée */
+        }
+        
+        .acheter:hover {
+          background-color: #c82333; /* couleur de fond rouge foncé au survol */
+          box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* ombre portée renforcée au survol */
+        }
+        
+    
