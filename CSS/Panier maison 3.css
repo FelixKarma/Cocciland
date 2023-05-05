@@ -310,4 +310,12 @@ p{
           box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* ombre portée renforcée au survol */
         }
         
-    
+    img{
+      margin-left: 75px;
+      
+       
+          width: 30%;
+          height: 30%;
+        
+        
+    }
