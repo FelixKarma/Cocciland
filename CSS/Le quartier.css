@@ -1,5 +1,6 @@
-body
-{
+body,html{
+  background-repeat: no-repeat;
+  background-size: cover;
   background: linear-gradient(#062745, brown) !important;  
 }
 #staticBackdropLabel {
@@ -39,9 +40,11 @@ li.btn .dropdown-menu{
   height: 50px;
   width: 50px;
 }
-video {
+
+
+video{
   display: flex;
- 
+ }
 *{
     font-family: 'Marcellus SC', serif;
     list-style: none;
@@ -49,9 +52,7 @@ video {
     /* text-decoration: none; */
 }
 
-p{
-  color: white;
-}
+
 body{
     background-image: url(../fond-page.jpg);
     background-repeat: no-repeat;
@@ -125,3 +126,20 @@ margin-left: 20px;
   width: 50px;
 }
 
+.texte{
+  background-color: rgb(0, 0, 0,0.4);
+  
+}
+
+p{
+  color: white;
+  display: flex;
+justify-content: center;
+padding: 20px;  
+}
+
+.texte{
+  
+  border-radius: 3%;
+
+}
